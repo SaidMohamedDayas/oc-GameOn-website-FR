@@ -525,6 +525,7 @@ input[data-error]::after {
   height: 100%;
   display: block;
   padding: 0;
+  object-fit: cover;
 }
 
 .copyrights {
@@ -543,6 +544,20 @@ footer {
   padding-left: 2vw;
   padding-right: 2vw;
   margin: 0 20px;
+}
+
+@media screen and (max-width: 947px) {
+  .hero-content {
+    padding: 51px 47px;
+  }
+
+  .hero-headline {
+    font-size: 5rem;
+  }
+
+  .hero-text {
+    margin-top: 47px;
+  }
 }
 
 @media screen and (max-width: 800px) {
